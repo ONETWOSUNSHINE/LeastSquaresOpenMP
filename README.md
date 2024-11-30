@@ -23,7 +23,8 @@ cd LeastSquaresOpenMP
 ```
 ### Build the project
 
-This project uses **make** for building. To build the project, simply run the following command in the root directory of the repository:
+#### Using CMake with Make (Linux/MinGW)
+To build the project, simply run the following command in the root directory of the repository:
 
 ```
 mkdir build
@@ -31,6 +32,19 @@ cd build
 cmake ..
 make
 ```
+#### Using CMake with Visual Studio (Windows)
+
+1. To build the project, simply run the following command in the root directory of the repository:
+
+```
+mkdir build
+cd build
+cmake ..
+```
+2. Open the generated `LeastSquaresOpenMP.sln` file in Visual Studio.
+3. Build the solution via the Visual Studio interface.
+4. The executable will be located in the `Debug` or `Release` folder, depending on the build configuration.
+
 ## Run the program
 
 Input file structure: The first line contains the degree of the output polynomial, and each subsequent line contains an x and y value separated by a space.
