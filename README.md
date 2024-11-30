@@ -2,6 +2,16 @@
 
 This project implements the Least Squares Method for polynomial fitting using OpenMP for parallelization.
 
+## Implementation Overview
+
+The implementation involves the following steps:
+
+1. **Matrix and Vector Initialization**:  
+   The matrix **A** and vector **b** are filled according to the least squares theory using **OpenMP** parallelization. The matrix **A** is constructed using the data points, and the vector **b** represents the corresponding y-values.
+
+2. **Solving the System**:  
+   The system of linear equations **Ax = b** is solved using **Gaussian elimination** with **OpenMP** parallelization. Both the forward elimination and backward substitution steps are parallelized to optimize the performance for solving the system with different numbers of threads.
+
 ## Installation
 ### Clone the repository
 
@@ -12,6 +22,8 @@ git clone https://github.com/ONETWOSUNSHINE/LeastSquaresOpenMP.git
 cd LeastSquaresOpenMP
 ```
 ### Build the project
+
+This project uses **make** for building. To build the project, simply run the following command in the root directory of the repository:
 
 ```
 mkdir build
@@ -67,4 +79,4 @@ The performance test was conducted on generated data, which was created using th
 ```
 >python ../tests/generated_data.py
 ```
-![Performance Graph](images/generated_data_threads_execution_time.png.png)
+![Performance Graph](images/generated_data_threads_execution_time.png)
