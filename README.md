@@ -67,4 +67,4 @@ The performance test was conducted on generated data, which was created using th
 ```
 >python ../tests/generated_data.py
 ```
-![Performance Graph](images/generated_data_threads_execution_time.png.png)
+![Performance Graph](images/generated_data_threads_execution_time.png)
