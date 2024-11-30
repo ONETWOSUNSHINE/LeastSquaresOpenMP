@@ -1,0 +1,6 @@
+Coefficients of a polynomial of degree 3:
+ x^0: -0.806667
+ x^1: 1.10249
+ x^2: 2.72646
+ x^3: 0.0209402
+Elapsed time (sec): 0.0777919
