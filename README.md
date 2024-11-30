@@ -91,6 +91,6 @@ print("Coefficients from numpy.polyfit:", coeffs_numpy)
 The performance test was conducted on generated data, which was created using the following command:
 
 ```
->python ../tests/generated_data.py
+>python ../tests/test_generation.py
 ```
 ![Performance Graph](images/generated_data_threads_execution_time.png)
