@@ -6,7 +6,6 @@
 #include "poly_fit.h"
 #include "utils.h"
 #include <omp.h>
-#include <unistd.h>
 
 
 int main(int argc, char* argv[]) {

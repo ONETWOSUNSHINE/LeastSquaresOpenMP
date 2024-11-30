@@ -9,7 +9,7 @@
 
 double gaussElim(std::vector<std::vector<double>>& A, std::vector<double>& b, std::vector<double>& x) {
 
-    double s;
+    double s = 0;
     const int n = A.size();
     double t = omp_get_wtime();
 
