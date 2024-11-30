@@ -54,7 +54,7 @@ Input file structure: The first line contains the degree of the output polynomia
 Usage:
  ./lsq <input_file> [-pt]
    -pt = Threads performance test (1-8)
->./lsq ../tests/test_1.txt
+>./lsq ../tests/test_1.txt -pt
 Coefficients of a polynomial of degree 2:
  x^0: 1.44
  x^1: 0.707143
